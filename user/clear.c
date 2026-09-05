@@ -3,7 +3,7 @@
 
 void
 clear(void) {
-  printf("hello, world\n");
+  printf("\x1b[H\x1b[2J\x1b[3J");
 }
 
 int
